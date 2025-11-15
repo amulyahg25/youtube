@@ -13,7 +13,7 @@ const options = {
 };
 
 export const fetchFromAPI = async (url) => {
-  const { data } = await axios.get(`${("http://localhost:5000/videos")
+  const { data } = await axios.get(`${("http://backend:5000/videos")
 }/${url}`, options);
 
   return data;
